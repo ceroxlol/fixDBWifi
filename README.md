@@ -3,6 +3,6 @@ Bash script to reset the bridge which creates a conflict upon connecting a secon
 
 # What to do?
 Give the script execution rights ( {chmod +x}) and execute it via
-{./fix_db_wifi.sh}. The script needs root as there is some networking stuff happening.
+{sudo ./fix_db_wifi.sh}. The script needs root as ifconfig and brctl need root rights.
 
-After you have executed the script, reconnect to the wifi and you should be prompted to the hotspot login.
+After you have executed the script, reconnect to the wifi (WIFI@DB) and you should be prompted to the hotspot login.
